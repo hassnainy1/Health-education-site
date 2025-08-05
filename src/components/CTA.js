@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function CTA() {
   return (
     <div>
@@ -10,8 +10,8 @@ export default function CTA() {
     Whether you're managing diabetes or learning to eat healthier, we have a course for you.
   </p>
   <div className="cta-buttons">
-    <a href="/" className="btn-light">Start Learning Today</a>
-    <a href="/" className="btn-dark">Explore</a>
+   <Link to="/" className="btn-light">Start Learning Today</Link>
+   <Link to="/" className="btn-dark">Explore</Link>
   </div>
 </section>
     </div>

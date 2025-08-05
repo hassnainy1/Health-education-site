@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function About() {
   return (
     <div>
@@ -16,8 +16,8 @@ export default function About() {
       <p>
         Whether you're navigating diabetes, heart health, or gastrointestinal issues, Tamara’s courses provide the tools and knowledge you need to lead a healthier, more empowered life.
       </p>
-      <a href="/" class="btn btn-start">Start Learning Today</a>
-    </div>
+   <Link to="/courses" className="btn btn-start">Start Learning Today</Link>
+ </div>
     <div class="about-image-wrapper">
       <img src="images/tamara.jpg" alt="Tamara" class="about-image" />
     </div>

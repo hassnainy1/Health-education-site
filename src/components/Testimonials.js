@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function Testimonials() {
   return (
     <div>
@@ -59,7 +59,7 @@ export default function Testimonials() {
         <span className="dot"></span>
         <span className="dot"></span>
       </div>
-      <a href="/" className="btn-dark">Read Success Stories</a>
+     <Link to="/" className="btn-dark">Read Success Stories</Link>
     </div>
   </div>
 </section>

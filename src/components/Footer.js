@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <div>
@@ -12,7 +12,7 @@ export default function Footer() {
     <form className="subscribe-form">
       <input type="email" placeholder="Your Email Here" />
       <button type="submit">Join</button>
-      <small>By subscribing, you consent to our <a href="/">Privacy Policy</a>.</small>
+      <small>By subscribing, you consent to our<Link to="/">Privacy Policy</Link>.</small>
     </form>
   </div>
 
@@ -25,54 +25,54 @@ export default function Footer() {
       <div>
         <h5>Quick Links</h5>
         <ul>
-          <li><a href="/">About Us</a></li>
-          <li><a href="/">Contact Info</a></li>
-          <li><a href="/">FAQ</a></li>
-          <li><a href="/">Courses</a></li>
-          <li><a href="/">Testimonials</a></li>
+          <li><Link to="/">About Us</Link></li>
+          <li><Link to="/">Contact Info</Link></li>
+          <li><Link to="/">FAQ</Link></li>
+          <li><Link to="/">Courses</Link></li>
+          <li><Link to="/">Testimonials</Link></li>
         </ul>
       </div>
 
       <div>
         <h5>Resources</h5>
         <ul>
-          <li><a href="/">Blog Posts</a></li>
-          <li><a href="/">Support</a></li>
-          <li><a href="/">Privacy Policy</a></li>
-          <li><a href="/">Terms of Use</a></li>
-          <li><a href="/">User Guide</a></li>
+          <li><Link to="/">Blog Posts</Link></li>
+          <li><Link to="/">Support</Link></li>
+          <li><Link to="/">Privacy Policy</Link></li>
+          <li><Link to="/">Terms of Use</Link></li>
+          <li><Link to="/">User Guide</Link></li>
         </ul>
       </div>
 
       <div>
         <h5>Connect With Us</h5>
         <ul>
-          <li><a href="/">Facebook</a></li>
-          <li><a href="/">Instagram</a></li>
-          <li><a href="/">LinkedIn</a></li>
-          <li><a href="/">YouTube</a></li>
-          <li><a href="/">Twitter</a></li>
+          <li><Link to="/">Facebook</Link></li>
+          <li><Link to="/">Instagram</Link></li>
+          <li><Link to="/">LinkedIn</Link></li>
+          <li><Link to="/">YouTube</Link></li>
+          <li><Link to="/">Twitter</Link></li>
         </ul>
       </div>
 
       <div>
         <h5>Stay Updated</h5>
         <ul>
-          <li><a href="/">Newsletter</a></li>
-          <li><a href="/">Course Updates</a></li>
-          <li><a href="/">Special Offers</a></li>
-          <li><a href="/">Feedback Form</a></li>
+          <li><Link to="/">Newsletter</Link></li>
+          <li><Link to="/">Course Updates</Link></li>
+          <li><Link to="/">Special Offers</Link></li>
+          <li><Link to="/">Feedback Form</Link></li>
         </ul>
       </div>
 
       <div>
         <h5>Contact Us</h5>
         <ul>
-          <li><a href="/">Get in Touch</a></li>
-          <li><a href="/">Support</a></li>
-          <li><a href="/">Help Center</a></li>
-          <li><a href="/">Community Forum</a></li>
-          <li><a href="/">User Stories</a></li>
+          <li><Link to="/">Get in Touch</Link></li>
+          <li><Link to="/">Support</Link></li>
+          <li><Link to="/">Help Center</Link></li>
+          <li><Link to="/">Community Forum</Link></li>
+          <li><Link to="/">User Stories</Link></li>
         </ul>
       </div>
     </div>
@@ -81,9 +81,9 @@ export default function Footer() {
   <div className="footer-bottom">
     <p>© 2024 Tamara's Health Courses. All rights reserved.</p>
     <ul className="legal-links">
-      <li><a href="/">Privacy Policy</a></li>
-      <li><a href="/">Terms of Service</a></li>
-      <li><a href="/">Cookie Settings</a></li>
+      <li><Link to="/">Privacy Policy</Link></li>
+      <li><Link to="/">Terms of Service</Link></li>
+      <li><Link to="/">Cookie Settings</Link></li>
     </ul>
   </div>
 </footer>

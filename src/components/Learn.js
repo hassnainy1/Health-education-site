@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function Learn() {
   return (
     <div>
@@ -24,7 +24,7 @@ export default function Learn() {
         By the end of the course, you’ll have the tools and knowledge to not only manage chronic conditions but to <strong>transform your health and lifestyle for the better.</strong>
       </p>
 
-      <a href="/" className="btn btn-start">Start Learning Today</a>
+     <Link to="/" className="btn btn-start">Start Learning Today</Link>
     </div>
 
     <div className="learn-graphic">

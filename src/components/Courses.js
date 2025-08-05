@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function Courses() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Courses() {
       <p>
         Whether you're managing diabetes, heart disease, or other chronic conditions, our courses are designed to help you make informed, effective lifestyle changes. All courses are taught by Tamara Herman, a licensed dietitian and diabetes care specialist.
       </p>
-      <a href="/">Explore More</a>
+     <Link to="/">Explore More</Link>
     </div>
   </div>
 
@@ -24,7 +24,7 @@ export default function Courses() {
       <h4>Complete Diabetes<br/>Management Course</h4>
       <img src="images/diabetes.jpg" alt="Diabetes course" />
       <p>Practical recipes, meal planning, and nutrition tips to help you lead a healthier life.</p>
-      <a href="/">Explore More</a>
+     <Link to="/">Explore More</Link>
     </div>
 
     
@@ -32,7 +32,7 @@ export default function Courses() {
       <h4>Heart Health &<br/>Nutrition</h4>
       <img src="images/heart-health.jpg" alt="Heart health course" />
       <p>Practical recipes, meal planning, and nutrition tips to help you lead a healthier life.</p>
-      <a href="/">Explore More</a>
+     <Link to="/">Explore More</Link>
     </div>
 
  
@@ -40,7 +40,7 @@ export default function Courses() {
       <h4>Healthy Eating &<br/>Cooking Tips</h4>
       <img src="images/healthy-eating.jpg" alt="Healthy cooking course" />
       <p>Practical recipes, meal planning, and nutrition tips to help you lead a healthier life.</p>
-      <a href="/">Explore More</a>
+     <Link to="/">Explore More</Link>
     </div>
   </div>
 </section>
